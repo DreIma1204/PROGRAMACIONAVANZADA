@@ -1,0 +1,9 @@
+{
+  "id": "SA02",
+  "nombre": "Salchicha",
+  "precio": 42.0,
+  "stock": 15,
+  "categoria": "Salchichonería",
+  "imagenRuta": "img/salchicha.jpg",
+  "conservacion": "Refrigerados"
+}

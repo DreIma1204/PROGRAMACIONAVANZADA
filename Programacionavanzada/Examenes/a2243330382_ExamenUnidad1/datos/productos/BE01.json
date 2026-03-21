@@ -1,0 +1,9 @@
+{
+  "id": "BE01",
+  "nombre": "Agua",
+  "precio": 15.0,
+  "stock": 60,
+  "categoria": "Bebidas",
+  "imagenRuta": "img/agua.jpg",
+  "conservacion": "Líquidos / Pesado"
+}

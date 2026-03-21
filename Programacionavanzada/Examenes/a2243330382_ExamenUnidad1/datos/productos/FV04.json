@@ -1,0 +1,9 @@
+{
+  "id": "FV04",
+  "nombre": "Lechuga",
+  "precio": 18.0,
+  "stock": 40,
+  "categoria": "Frutas y Verduras",
+  "imagenRuta": "img/lechuga.jpg",
+  "conservacion": "Perecedero (Peso variable)"
+}

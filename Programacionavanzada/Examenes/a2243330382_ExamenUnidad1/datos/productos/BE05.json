@@ -1,0 +1,9 @@
+{
+  "id": "BE05",
+  "nombre": "Té",
+  "precio": 40.0,
+  "stock": 25,
+  "categoria": "Bebidas",
+  "imagenRuta": "img/te.jpg",
+  "conservacion": "Líquidos / Pesado"
+}

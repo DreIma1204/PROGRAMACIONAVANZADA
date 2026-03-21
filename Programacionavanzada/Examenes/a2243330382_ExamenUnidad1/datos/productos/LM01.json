@@ -1,0 +1,9 @@
+{
+  "id": "LM01",
+  "nombre": "Detergente",
+  "precio": 95.0,
+  "stock": 20,
+  "categoria": "Limpieza del Hogar",
+  "imagenRuta": "img/det.jpg",
+  "conservacion": "Químicos (Aislados)"
+}

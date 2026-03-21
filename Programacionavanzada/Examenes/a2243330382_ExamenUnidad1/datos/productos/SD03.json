@@ -1,0 +1,9 @@
+{
+  "id": "SD03",
+  "nombre": "Chocolate",
+  "precio": 15.5,
+  "stock": 100,
+  "categoria": "Snacks y Dulcería",
+  "imagenRuta": "img/choco.jpg",
+  "conservacion": "Compra por impulso"
+}

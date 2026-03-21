@@ -1,0 +1,9 @@
+{
+  "id": "CN02",
+  "nombre": "Jabón",
+  "precio": 18.5,
+  "stock": 50,
+  "categoria": "Cuidado Personal",
+  "imagenRuta": "img/jabon.jpg",
+  "conservacion": "Higiene"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SD01",
+  "nombre": "Papas",
+  "precio": 18.0,
+  "stock": 60,
+  "categoria": "Snacks y Dulcería",
+  "imagenRuta": "img/papas.jpg",
+  "conservacion": "Compra por impulso"
+}

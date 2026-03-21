@@ -1,0 +1,9 @@
+{
+  "id": "LH02",
+  "nombre": "Huevo",
+  "precio": 85.0,
+  "stock": 10,
+  "categoria": "Lácteos y Huevo",
+  "imagenRuta": "img/huevo.jpg",
+  "conservacion": "Cadena de Frío"
+}

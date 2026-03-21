@@ -1,0 +1,9 @@
+{
+  "id": "LH01",
+  "nombre": "Leche",
+  "precio": 26.0,
+  "stock": 30,
+  "categoria": "Lácteos y Huevo",
+  "imagenRuta": "img/leche.jpg",
+  "conservacion": "Cadena de Frío"
+}

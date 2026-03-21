@@ -1,0 +1,9 @@
+{
+  "id": "CP05",
+  "nombre": "Camarón",
+  "precio": 220.0,
+  "stock": 5,
+  "categoria": "Carnes y Pescados",
+  "imagenRuta": "img/camaron.jpg",
+  "conservacion": "Congelados / Frescos"
+}

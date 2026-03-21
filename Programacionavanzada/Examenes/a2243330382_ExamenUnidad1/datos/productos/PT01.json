@@ -1,0 +1,9 @@
+{
+  "id": "PT01",
+  "nombre": "Pan Caja",
+  "precio": 48.0,
+  "stock": 25,
+  "categoria": "Panadería y Tortillería",
+  "imagenRuta": "img/pan.jpg",
+  "conservacion": "Alta rotación diaria"
+}

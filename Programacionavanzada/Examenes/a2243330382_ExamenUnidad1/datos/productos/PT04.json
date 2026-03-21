@@ -1,0 +1,9 @@
+{
+  "id": "PT04",
+  "nombre": "Tortilla",
+  "precio": 22.0,
+  "stock": 60,
+  "categoria": "Panadería y Tortillería",
+  "imagenRuta": "img/tortilla.jpg",
+  "conservacion": "Alta rotación diaria"
+}

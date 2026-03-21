@@ -1,0 +1,9 @@
+{
+  "id": "FV01",
+  "nombre": "Manzana",
+  "precio": 45.0,
+  "stock": 100,
+  "categoria": "Frutas y Verduras",
+  "imagenRuta": "img/manzana.jpg",
+  "conservacion": "Perecedero (Peso variable)"
+}

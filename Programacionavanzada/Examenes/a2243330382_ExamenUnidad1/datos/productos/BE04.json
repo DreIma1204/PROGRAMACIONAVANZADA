@@ -1,0 +1,9 @@
+{
+  "id": "BE04",
+  "nombre": "Café",
+  "precio": 85.0,
+  "stock": 15,
+  "categoria": "Bebidas",
+  "imagenRuta": "img/cafe.jpg",
+  "conservacion": "Líquidos / Pesado"
+}

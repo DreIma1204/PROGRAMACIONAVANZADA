@@ -1,0 +1,9 @@
+{
+  "id": "AB03",
+  "nombre": "Frijol",
+  "precio": 35.0,
+  "stock": 40,
+  "categoria": "Abarrotes",
+  "imagenRuta": "img/frijol.jpg",
+  "conservacion": "No perecedero (Anaquel)"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "LH05",
+  "nombre": "Crema",
+  "precio": 32.0,
+  "stock": 12,
+  "categoria": "Lácteos y Huevo",
+  "imagenRuta": "img/crema.jpg",
+  "conservacion": "Cadena de Frío"
+}

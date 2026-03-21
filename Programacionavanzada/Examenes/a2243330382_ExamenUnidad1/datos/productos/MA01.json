@@ -1,0 +1,9 @@
+{
+  "id": "MA01",
+  "nombre": "Croquetas",
+  "precio": 180.0,
+  "stock": 10,
+  "categoria": "Mascotas",
+  "imagenRuta": "img/perro.jpg",
+  "conservacion": "Volumen / Peso"
+}

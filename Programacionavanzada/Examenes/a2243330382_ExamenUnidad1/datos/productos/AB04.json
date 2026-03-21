@@ -1,0 +1,9 @@
+{
+  "id": "AB04",
+  "nombre": "Pasta",
+  "precio": 12.0,
+  "stock": 100,
+  "categoria": "Abarrotes",
+  "imagenRuta": "img/pasta.jpg",
+  "conservacion": "No perecedero (Anaquel)"
+}

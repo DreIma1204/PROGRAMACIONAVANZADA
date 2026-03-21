@@ -1,0 +1,9 @@
+{
+  "id": "BE03",
+  "nombre": "Jugo",
+  "precio": 25.0,
+  "stock": 20,
+  "categoria": "Bebidas",
+  "imagenRuta": "img/jugo.jpg",
+  "conservacion": "Líquidos / Pesado"
+}

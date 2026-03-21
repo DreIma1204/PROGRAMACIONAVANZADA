@@ -1,0 +1,9 @@
+{
+  "id": "MA02",
+  "nombre": "Sobre Gato",
+  "precio": 12.5,
+  "stock": 40,
+  "categoria": "Mascotas",
+  "imagenRuta": "img/gato.jpg",
+  "conservacion": "Volumen / Peso"
+}

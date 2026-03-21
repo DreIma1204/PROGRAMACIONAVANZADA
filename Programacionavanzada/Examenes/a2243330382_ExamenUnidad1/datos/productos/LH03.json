@@ -1,0 +1,9 @@
+{
+  "id": "LH03",
+  "nombre": "Yogurt",
+  "precio": 42.0,
+  "stock": 15,
+  "categoria": "Lácteos y Huevo",
+  "imagenRuta": "img/yogurt.jpg",
+  "conservacion": "Cadena de Frío"
+}

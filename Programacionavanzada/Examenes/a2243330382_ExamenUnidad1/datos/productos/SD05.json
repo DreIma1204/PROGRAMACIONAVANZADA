@@ -1,0 +1,9 @@
+{
+  "id": "SD05",
+  "nombre": "Cacahuate",
+  "precio": 14.0,
+  "stock": 50,
+  "categoria": "Snacks y Dulcería",
+  "imagenRuta": "img/cacahuate.jpg",
+  "conservacion": "Compra por impulso"
+}

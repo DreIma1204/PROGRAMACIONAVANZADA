@@ -1,0 +1,9 @@
+{
+  "id": "CN03",
+  "nombre": "Pasta Dent.",
+  "precio": 32.0,
+  "stock": 40,
+  "categoria": "Cuidado Personal",
+  "imagenRuta": "img/pastaD.jpg",
+  "conservacion": "Higiene"
+}

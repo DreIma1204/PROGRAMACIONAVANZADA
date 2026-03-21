@@ -1,0 +1,9 @@
+{
+  "id": "PT03",
+  "nombre": "Bolillo",
+  "precio": 2.5,
+  "stock": 100,
+  "categoria": "Panadería y Tortillería",
+  "imagenRuta": "img/bolillo.jpg",
+  "conservacion": "Alta rotación diaria"
+}

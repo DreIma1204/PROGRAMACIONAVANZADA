@@ -1,0 +1,9 @@
+{
+  "id": "LH04",
+  "nombre": "Mantequilla",
+  "precio": 28.5,
+  "stock": 25,
+  "categoria": "Lácteos y Huevo",
+  "imagenRuta": "img/mante.jpg",
+  "conservacion": "Cadena de Frío"
+}

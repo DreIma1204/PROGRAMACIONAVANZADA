@@ -1,0 +1,19 @@
+{
+  "folio": "TICKET-003",
+  "fecha": "20/03/2026",
+  "total_pagado": 47.0,
+  "detalle_compra": [
+    {
+      "id": "AB03",
+      "nombre": "Frijol",
+      "cant": "1",
+      "subtotal": "35.0"
+    },
+    {
+      "id": "SD04",
+      "nombre": "Gomitas",
+      "cant": "1",
+      "subtotal": "12.0"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "LM02",
+  "nombre": "Suavizante",
+  "precio": 45.0,
+  "stock": 15,
+  "categoria": "Limpieza del Hogar",
+  "imagenRuta": "img/suav.jpg",
+  "conservacion": "Químicos (Aislados)"
+}

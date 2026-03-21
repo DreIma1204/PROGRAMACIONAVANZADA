@@ -1,0 +1,9 @@
+{
+  "id": "SA04",
+  "nombre": "Queso",
+  "precio": 85.0,
+  "stock": 12,
+  "categoria": "Salchichonería",
+  "imagenRuta": "img/queso.jpg",
+  "conservacion": "Refrigerados"
+}

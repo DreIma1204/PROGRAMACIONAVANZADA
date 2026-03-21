@@ -4,70 +4,93 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
 public class VProductos extends JInternalFrame {
-    public JTextField txtId, txtNombre, txtPrecioC, txtPrecioV, txtStockI, txtStockM;
-    public JTextArea txtDesc;
-    public JComboBox<String> cbCat;
-    public JRadioButton rbActivo, rbDesactivo;
-    public JButton btnGuardar, btnLimpiar, btnBuscar, btnMostrar, btnExportar;
+    public JTextField txtId, txtNombre, txtPrecioVenta, txtStock;
+    public JTextArea txtDescripcion;
+    public JComboBox<String> cbCategoria;
+    public JButton btnGuardar, btnLimpiar;
     public JTable tabla;
     public DefaultTableModel modelo;
+    public JLabel lblImagen; 
+    public JTextArea txtDetallesEspeciales;
 
     public VProductos() {
-        super("Productos", true, true, true, true);
-        setSize(1000, 600);
-        setLayout(new BorderLayout(10, 10));
+        super(".: Maestro de Artículos :.", true, true, true, true);
+        setSize(1150, 650);
+        getContentPane().setBackground(new Color(236, 240, 241));
+        setLayout(new BorderLayout(15, 15));
 
-        JPanel pnlAlta = new JPanel(new GridBagLayout());
-        pnlAlta.setBorder(BorderFactory.createTitledBorder("Alta y Edición"));
-        GridBagConstraints g = new GridBagConstraints();
-        g.insets = new Insets(2, 5, 2, 5); g.fill = GridBagConstraints.HORIZONTAL;
-
-        txtId = new JTextField("AUTOGEN", 10); txtId.setEnabled(false);
-        txtNombre = new JTextField(10);
-        txtDesc = new JTextArea(3, 10);
-        cbCat = new JComboBox<>(new String[]{"Seleccionar..."});
-        txtPrecioC = new JTextField(10); txtPrecioV = new JTextField(10);
-        txtStockI = new JTextField(10); txtStockM = new JTextField(10);
-
-        addComp(pnlAlta, new JLabel("ID [Auto]:"), 0, 0, g); addComp(pnlAlta, txtId, 1, 0, g);
-        addComp(pnlAlta, new JLabel("Nombre Producto:"), 0, 1, g); addComp(pnlAlta, txtNombre, 1, 1, g);
-        addComp(pnlAlta, new JLabel("Descripción:"), 0, 2, g); 
-        g.gridx = 1; g.gridy = 2; pnlAlta.add(new JScrollPane(txtDesc), g);
-        addComp(pnlAlta, new JLabel("Categoría:"), 0, 3, g); addComp(pnlAlta, cbCat, 1, 3, g);
-        addComp(pnlAlta, new JLabel("Precio Compra:"), 0, 4, g); addComp(pnlAlta, txtPrecioC, 1, 4, g);
-        addComp(pnlAlta, new JLabel("Precio Venta:"), 0, 5, g); addComp(pnlAlta, txtPrecioV, 1, 5, g);
-        addComp(pnlAlta, new JLabel("Stock Inicial:"), 0, 6, g); addComp(pnlAlta, txtStockI, 1, 6, g);
-        addComp(pnlAlta, new JLabel("Stock Mínimo:"), 0, 7, g); addComp(pnlAlta, txtStockM, 1, 7, g);
-
-        JPanel pnlEst = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        pnlEst.setBorder(BorderFactory.createTitledBorder("Estado Actual"));
-        rbActivo = new JRadioButton("Activo", true); rbDesactivo = new JRadioButton("Desactivado");
-        ButtonGroup bg = new ButtonGroup(); bg.add(rbActivo); bg.add(rbDesactivo);
-        pnlEst.add(rbActivo); pnlEst.add(rbDesactivo);
-        g.gridx=0; g.gridy=8; g.gridwidth=2; pnlAlta.add(pnlEst, g);
-
-        btnGuardar = new JButton("Guardar Cambios");
-        btnLimpiar = new JButton("Limpiar Formulario");
-        JPanel pB = new JPanel(); pB.add(btnGuardar); pB.add(btnLimpiar);
-        g.gridy=9; pnlAlta.add(pB, g);
-
-        JPanel pnlDer = new JPanel(new BorderLayout());
-        pnlDer.setBorder(BorderFactory.createTitledBorder("Catálogo de Productos"));
-        modelo = new DefaultTableModel(new String[]{"ID", "Código", "Nombre", "Categoría", "Stock", "P.Venta", "Estado"}, 0);
+        JPanel pnlCentro = new JPanel(new BorderLayout());
+        pnlCentro.setOpaque(false);
+        pnlCentro.setBorder(BorderFactory.createTitledBorder("REGISTROS EXISTENTES"));
+        
+        modelo = new DefaultTableModel(new String[]{"CÓDIGO", "DESCRIPCIÓN", "CATEGORÍA", "EXISTENCIA", "PRECIO"}, 0);
         tabla = new JTable(modelo);
-        pnlDer.add(new JScrollPane(tabla), BorderLayout.CENTER);
+        tabla.setRowHeight(25);
+        tabla.getTableHeader().setBackground(new Color(52, 73, 94));
+        tabla.getTableHeader().setForeground(Color.WHITE);
+        pnlCentro.add(new JScrollPane(tabla), BorderLayout.CENTER);
 
-        JPanel pnlBusq = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        pnlBusq.setBorder(BorderFactory.createTitledBorder("Acciones y Filtros"));
-        btnBuscar = new JButton("Buscar"); btnMostrar = new JButton("Mostrar Todos"); btnExportar = new JButton("Exportar Lista");
-        pnlBusq.add(new JLabel("Buscar por:")); pnlBusq.add(new JTextField(8)); pnlBusq.add(btnBuscar);
-        pnlBusq.add(btnMostrar); pnlBusq.add(btnExportar);
-        pnlDer.add(pnlBusq, BorderLayout.SOUTH);
+        JPanel pnlDerecho = new JPanel(new GridBagLayout());
+        pnlDerecho.setPreferredSize(new Dimension(380, 0));
+        pnlDerecho.setBackground(Color.WHITE);
+        pnlDerecho.setBorder(BorderFactory.createMatteBorder(0, 2, 0, 0, new Color(189, 195, 199)));
+        
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(8, 15, 8, 15);
+        gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        add(pnlAlta, BorderLayout.WEST);
-        add(pnlDer, BorderLayout.CENTER);
-    }
-    private void addComp(JPanel p, Component c, int x, int y, GridBagConstraints g) {
-        g.gridx = x; g.gridy = y; g.gridwidth = 1; p.add(c, g);
+        txtId = new JTextField(); txtId.setEditable(false); txtId.setBackground(new Color(236, 240, 241));
+        txtNombre = new JTextField();
+        cbCategoria = new JComboBox<>(new String[]{"Seleccionar...", "Abarrotes", "Bebidas", "Lácteos y Huevo", "Frutas y Verduras", "Carnes y Pescado", "Salchichonería", "Panadería", "Limpieza", "Cuidado Personal", "Snacks", "Mascotas"});
+        txtPrecioVenta = new JTextField();
+        txtStock = new JTextField();
+
+        gbc.gridx = 0; gbc.gridy = 0; pnlDerecho.add(new JLabel("ID SISTEMA:"), gbc);
+        gbc.gridx = 1; pnlDerecho.add(txtId, gbc);
+        gbc.gridx = 0; gbc.gridy = 1; pnlDerecho.add(new JLabel("PRODUCTO:"), gbc);
+        gbc.gridx = 1; pnlDerecho.add(txtNombre, gbc);
+        gbc.gridx = 0; gbc.gridy = 2; pnlDerecho.add(new JLabel("GRUPO:"), gbc);
+        gbc.gridx = 1; pnlDerecho.add(cbCategoria, gbc);
+        gbc.gridx = 0; gbc.gridy = 3; pnlDerecho.add(new JLabel("PRECIO ($):"), gbc);
+        gbc.gridx = 1; pnlDerecho.add(txtPrecioVenta, gbc);
+        gbc.gridx = 0; gbc.gridy = 4; pnlDerecho.add(new JLabel("STOCK:"), gbc);
+        gbc.gridx = 1; pnlDerecho.add(txtStock, gbc);
+
+        btnGuardar = new JButton("CONFIRMAR REGISTRO");
+        btnGuardar.setBackground(new Color(46, 204, 113));
+        btnGuardar.setForeground(Color.WHITE);
+        btnGuardar.setFont(new Font("Arial", Font.BOLD, 12));
+        
+        btnLimpiar = new JButton("LIMPIAR");
+        btnLimpiar.setBackground(new Color(231, 76, 60));
+        btnLimpiar.setForeground(Color.WHITE);
+
+        gbc.gridx = 0; gbc.gridy = 5; gbc.gridwidth = 2;
+        pnlDerecho.add(btnGuardar, gbc);
+        gbc.gridy = 6; pnlDerecho.add(btnLimpiar, gbc);
+
+        JPanel pnlInferior = new JPanel(new FlowLayout(FlowLayout.LEFT, 20, 10));
+        pnlInferior.setPreferredSize(new Dimension(0, 200));
+        pnlInferior.setBackground(new Color(52, 73, 94));
+
+        lblImagen = new JLabel("VISUALIZACIÓN DE IMAGEN", SwingConstants.CENTER);
+        lblImagen.setPreferredSize(new Dimension(180, 180));
+        lblImagen.setOpaque(true);
+        lblImagen.setBackground(Color.DARK_GRAY);
+        lblImagen.setForeground(Color.WHITE);
+        lblImagen.setBorder(BorderFactory.createLineBorder(Color.CYAN));
+
+        txtDetallesEspeciales = new JTextArea(8, 40);
+        txtDetallesEspeciales.setBackground(new Color(44, 62, 80));
+        txtDetallesEspeciales.setForeground(new Color(241, 196, 15)); 
+        txtDetallesEspeciales.setEditable(false);
+        txtDetallesEspeciales.setBorder(BorderFactory.createTitledBorder(null, "DATOS TÉCNICOS", 0, 0, null, Color.WHITE));
+
+        pnlInferior.add(lblImagen);
+        pnlInferior.add(new JScrollPane(txtDetallesEspeciales));
+
+        add(pnlCentro, BorderLayout.CENTER);
+        add(pnlDerecho, BorderLayout.EAST);
+        add(pnlInferior, BorderLayout.SOUTH);
     }
 }

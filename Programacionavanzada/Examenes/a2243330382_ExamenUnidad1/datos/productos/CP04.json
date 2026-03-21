@@ -1,0 +1,9 @@
+{
+  "id": "CP04",
+  "nombre": "Pescado",
+  "precio": 140.0,
+  "stock": 8,
+  "categoria": "Carnes y Pescados",
+  "imagenRuta": "img/pescado.jpg",
+  "conservacion": "Congelados / Frescos"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MA05",
+  "nombre": "Collar",
+  "precio": 85.0,
+  "stock": 12,
+  "categoria": "Mascotas",
+  "imagenRuta": "img/collar.jpg",
+  "conservacion": "Volumen / Peso"
+}

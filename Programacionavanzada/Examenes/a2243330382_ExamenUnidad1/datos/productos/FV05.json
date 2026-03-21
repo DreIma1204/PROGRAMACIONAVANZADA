@@ -1,0 +1,9 @@
+{
+  "id": "FV05",
+  "nombre": "Aguacate",
+  "precio": 75.0,
+  "stock": 30,
+  "categoria": "Frutas y Verduras",
+  "imagenRuta": "img/aguacate.jpg",
+  "conservacion": "Perecedero (Peso variable)"
+}

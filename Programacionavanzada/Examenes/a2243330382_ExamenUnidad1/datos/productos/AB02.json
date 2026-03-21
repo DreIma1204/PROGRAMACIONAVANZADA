@@ -1,0 +1,9 @@
+{
+  "id": "AB02",
+  "nombre": "Arroz",
+  "precio": 22.5,
+  "stock": 50,
+  "categoria": "Abarrotes",
+  "imagenRuta": "img/arroz.jpg",
+  "conservacion": "No perecedero (Anaquel)"
+}

@@ -1,0 +1,16 @@
+{
+  "folio": "FOLIO-002",
+  "total": 100.0,
+  "items": [
+    {
+      "producto": "Papel Hig.",
+      "cant": "1",
+      "sub": "35.0"
+    },
+    {
+      "producto": "Escoba",
+      "cant": "1",
+      "sub": "65.0"
+    }
+  ]
+}

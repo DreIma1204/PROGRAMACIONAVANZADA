@@ -1,0 +1,9 @@
+{
+  "id": "AB05",
+  "nombre": "Azúcar",
+  "precio": 28.0,
+  "stock": 30,
+  "categoria": "Abarrotes",
+  "imagenRuta": "img/azucar.jpg",
+  "conservacion": "No perecedero (Anaquel)"
+}

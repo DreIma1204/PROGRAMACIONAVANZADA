@@ -1,0 +1,9 @@
+{
+  "id": "LM03",
+  "nombre": "Cloro",
+  "precio": 18.0,
+  "stock": 50,
+  "categoria": "Limpieza del Hogar",
+  "imagenRuta": "img/cloro.jpg",
+  "conservacion": "Químicos (Aislados)"
+}

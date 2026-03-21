@@ -1,0 +1,9 @@
+{
+  "id": "CN05",
+  "nombre": "Crema",
+  "precio": 85.0,
+  "stock": 15,
+  "categoria": "Cuidado Personal",
+  "imagenRuta": "img/cremaM.jpg",
+  "conservacion": "Higiene"
+}

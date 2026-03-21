@@ -1,0 +1,9 @@
+{
+  "id": "FV03",
+  "nombre": "Tomate",
+  "precio": 35.0,
+  "stock": 80,
+  "categoria": "Frutas y Verduras",
+  "imagenRuta": "img/tomate.jpg",
+  "conservacion": "Perecedero (Peso variable)"
+}

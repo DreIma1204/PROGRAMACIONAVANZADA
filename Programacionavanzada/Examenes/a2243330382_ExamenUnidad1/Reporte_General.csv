@@ -1,0 +1,56 @@
+﻿ID,NOMBRE,CATEGORIA,STOCK,PRECIO,DETALLES
+AB01,Aceite,Abarrotes,20,45.00,No perecedero (Anaquel)
+AB02,Arroz,Abarrotes,50,22.50,No perecedero (Anaquel)
+AB03,Frijol,Abarrotes,40,35.00,No perecedero (Anaquel)
+AB04,Pasta,Abarrotes,100,12.00,No perecedero (Anaquel)
+AB05,Azúcar,Abarrotes,30,28.00,No perecedero (Anaquel)
+BE01,Agua,Bebidas,60,15.00,Líquidos / Pesado
+BE02,Refresco,Bebidas,45,38.00,Líquidos / Pesado
+BE03,Jugo,Bebidas,20,25.00,Líquidos / Pesado
+BE04,Café,Bebidas,15,85.00,Líquidos / Pesado
+BE05,Té,Bebidas,25,40.00,Líquidos / Pesado
+LH01,Leche,Lácteos y Huevo,30,26.00,Cadena de Frío
+LH02,Huevo,Lácteos y Huevo,10,85.00,Cadena de Frío
+LH03,Yogurt,Lácteos y Huevo,15,42.00,Cadena de Frío
+LH04,Mantequilla,Lácteos y Huevo,25,28.50,Cadena de Frío
+LH05,Crema,Lácteos y Huevo,12,32.00,Cadena de Frío
+FV01,Manzana,Frutas y Verduras,100,45.00,Perecedero (Peso variable)
+FV02,Plátano,Frutas y Verduras,150,22.00,Perecedero (Peso variable)
+FV03,Tomate,Frutas y Verduras,80,35.00,Perecedero (Peso variable)
+FV04,Lechuga,Frutas y Verduras,40,18.00,Perecedero (Peso variable)
+FV05,Aguacate,Frutas y Verduras,30,75.00,Perecedero (Peso variable)
+CP01,Pollo,Carnes y Pescados,15,120.00,Congelados / Frescos
+CP02,Res,Carnes y Pescados,10,185.00,Congelados / Frescos
+CP03,Cerdo,Carnes y Pescados,12,110.00,Congelados / Frescos
+CP04,Pescado,Carnes y Pescados,8,140.00,Congelados / Frescos
+CP05,Camarón,Carnes y Pescados,5,220.00,Congelados / Frescos
+SA01,Jamón,Salchichonería,20,65.00,Refrigerados
+SA02,Salchicha,Salchichonería,15,42.00,Refrigerados
+SA03,Tocino,Salchichonería,10,78.00,Refrigerados
+SA04,Queso,Salchichonería,12,85.00,Refrigerados
+SA05,Chorizo,Salchichonería,18,55.00,Refrigerados
+PT01,Pan Caja,Panadería y Tortillería,25,48.00,Alta rotación diaria
+PT02,Concha,Panadería y Tortillería,40,12.00,Alta rotación diaria
+PT03,Bolillo,Panadería y Tortillería,100,2.50,Alta rotación diaria
+PT04,Tortilla,Panadería y Tortillería,60,22.00,Alta rotación diaria
+PT05,Dona,Panadería y Tortillería,30,15.00,Alta rotación diaria
+LM01,Detergente,Limpieza del Hogar,20,95.00,Químicos (Aislados)
+LM02,Suavizante,Limpieza del Hogar,15,45.00,Químicos (Aislados)
+LM03,Cloro,Limpieza del Hogar,50,18.00,Químicos (Aislados)
+LM04,Papel Hig.,Limpieza del Hogar,40,35.00,Químicos (Aislados)
+LM05,Escoba,Limpieza del Hogar,10,65.00,Químicos (Aislados)
+CN01,Shampoo,Cuidado Personal,20,75.00,Higiene
+CN02,Jabón,Cuidado Personal,50,18.50,Higiene
+CN03,Pasta Dent.,Cuidado Personal,40,32.00,Higiene
+CN04,Desodorante,Cuidado Personal,25,58.00,Higiene
+CN05,Crema,Cuidado Personal,15,85.00,Higiene
+SD01,Papas,Snacks y Dulcería,60,18.00,Compra por impulso
+SD02,Galletas,Snacks y Dulcería,45,22.00,Compra por impulso
+SD03,Chocolate,Snacks y Dulcería,100,15.50,Compra por impulso
+SD04,Gomitas,Snacks y Dulcería,80,12.00,Compra por impulso
+SD05,Cacahuate,Snacks y Dulcería,50,14.00,Compra por impulso
+MA01,Croquetas,Mascotas,10,180.00,Volumen / Peso
+MA02,Sobre Gato,Mascotas,40,12.50,Volumen / Peso
+MA03,Arena,Mascotas,8,145.00,Volumen / Peso
+MA04,Juguete,Mascotas,15,55.00,Volumen / Peso
+MA05,Collar,Mascotas,12,85.00,Volumen / Peso

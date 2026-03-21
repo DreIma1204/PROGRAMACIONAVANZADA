@@ -1,0 +1,9 @@
+{
+  "id": "SD02",
+  "nombre": "Galletas",
+  "precio": 22.0,
+  "stock": 45,
+  "categoria": "Snacks y Dulcería",
+  "imagenRuta": "img/galletas.jpg",
+  "conservacion": "Compra por impulso"
+}

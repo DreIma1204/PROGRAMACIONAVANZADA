@@ -1,0 +1,9 @@
+{
+  "id": "MA04",
+  "nombre": "Juguete",
+  "precio": 55.0,
+  "stock": 15,
+  "categoria": "Mascotas",
+  "imagenRuta": "img/jueg.jpg",
+  "conservacion": "Volumen / Peso"
+}

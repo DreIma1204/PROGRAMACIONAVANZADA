@@ -1,0 +1,9 @@
+{
+  "id": "AB01",
+  "nombre": "Aceite",
+  "precio": 45.0,
+  "stock": 20,
+  "categoria": "Abarrotes",
+  "imagenRuta": "img/aceite.jpg",
+  "conservacion": "No perecedero (Anaquel)"
+}

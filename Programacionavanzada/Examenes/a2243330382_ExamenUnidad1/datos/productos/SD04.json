@@ -1,0 +1,9 @@
+{
+  "id": "SD04",
+  "nombre": "Gomitas",
+  "precio": 12.0,
+  "stock": 80,
+  "categoria": "Snacks y Dulcería",
+  "imagenRuta": "img/gomitas.jpg",
+  "conservacion": "Compra por impulso"
+}

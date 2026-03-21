@@ -1,0 +1,16 @@
+{
+  "folio": "FOLIO-001",
+  "total": 73.0,
+  "items": [
+    {
+      "producto": "Aceite",
+      "cant": "1",
+      "sub": "45.0"
+    },
+    {
+      "producto": "Azúcar",
+      "cant": "1",
+      "sub": "28.0"
+    }
+  ]
+}

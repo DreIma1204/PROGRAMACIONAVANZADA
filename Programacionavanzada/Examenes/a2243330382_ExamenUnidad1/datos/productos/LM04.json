@@ -1,0 +1,9 @@
+{
+  "id": "LM04",
+  "nombre": "Papel Hig.",
+  "precio": 35.0,
+  "stock": 40,
+  "categoria": "Limpieza del Hogar",
+  "imagenRuta": "img/papel.jpg",
+  "conservacion": "Químicos (Aislados)"
+}

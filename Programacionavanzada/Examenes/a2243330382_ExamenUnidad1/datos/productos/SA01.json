@@ -1,0 +1,9 @@
+{
+  "id": "SA01",
+  "nombre": "Jamón",
+  "precio": 65.0,
+  "stock": 20,
+  "categoria": "Salchichonería",
+  "imagenRuta": "img/jamon.jpg",
+  "conservacion": "Refrigerados"
+}

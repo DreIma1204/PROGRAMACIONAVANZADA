@@ -1,0 +1,9 @@
+{
+  "id": "SA03",
+  "nombre": "Tocino",
+  "precio": 78.0,
+  "stock": 10,
+  "categoria": "Salchichonería",
+  "imagenRuta": "img/tocino.jpg",
+  "conservacion": "Refrigerados"
+}

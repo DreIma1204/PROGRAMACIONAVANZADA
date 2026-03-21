@@ -1,0 +1,9 @@
+{
+  "id": "PT05",
+  "nombre": "Dona",
+  "precio": 15.0,
+  "stock": 30,
+  "categoria": "Panadería y Tortillería",
+  "imagenRuta": "img/dona.jpg",
+  "conservacion": "Alta rotación diaria"
+}

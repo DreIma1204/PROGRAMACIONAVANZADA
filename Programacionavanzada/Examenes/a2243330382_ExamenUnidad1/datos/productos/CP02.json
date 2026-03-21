@@ -1,0 +1,9 @@
+{
+  "id": "CP02",
+  "nombre": "Res",
+  "precio": 185.0,
+  "stock": 10,
+  "categoria": "Carnes y Pescados",
+  "imagenRuta": "img/res.jpg",
+  "conservacion": "Congelados / Frescos"
+}

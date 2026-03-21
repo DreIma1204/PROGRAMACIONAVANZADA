@@ -1,0 +1,9 @@
+{
+  "id": "SA05",
+  "nombre": "Chorizo",
+  "precio": 55.0,
+  "stock": 18,
+  "categoria": "Salchichonería",
+  "imagenRuta": "img/chorizo.jpg",
+  "conservacion": "Refrigerados"
+}

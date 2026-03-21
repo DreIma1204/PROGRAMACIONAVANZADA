@@ -1,0 +1,9 @@
+{
+  "id": "CP01",
+  "nombre": "Pollo",
+  "precio": 120.0,
+  "stock": 15,
+  "categoria": "Carnes y Pescados",
+  "imagenRuta": "img/pollo.jpg",
+  "conservacion": "Congelados / Frescos"
+}

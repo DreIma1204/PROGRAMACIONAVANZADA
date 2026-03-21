@@ -7,25 +7,37 @@ public class VistaPrincipal extends JFrame {
     public JMenuItem itemInventario, itemPuntoVenta, itemProductos;
 
     public VistaPrincipal() {
-        setTitle("Sistema Integral de Ventas e Inventario");
-        setSize(1200, 800);
+        setTitle("SISTEMA POS - CORE V1.0"); 
+        setSize(1300, 850);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
         desktop = new JDesktopPane();
-        desktop.setBackground(new Color(60, 63, 65));
+        desktop.setBackground(new Color(24, 28, 31)); 
         setContentPane(desktop);
 
         JMenuBar menuBar = new JMenuBar();
-        JMenu menuModulos = new JMenu("Módulos del Sistema");
+        menuBar.setBackground(new Color(45, 52, 54));
+        menuBar.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, new Color(108, 121, 123)));
+
+        JMenu menuModulos = new JMenu("☰ PANEL DE CONTROL");
+        menuModulos.setForeground(new Color(0, 206, 201)); 
+        menuModulos.setFont(new Font("Segoe UI", Font.BOLD, 14));
         
-        itemInventario = new JMenuItem("1. Ver Inventario");
-        itemPuntoVenta = new JMenuItem("2. Punto de Venta");
-        itemProductos = new JMenuItem("3. Catálogo de Productos");
+        itemInventario = new JMenuItem("📦 Gestión de Inventario");
+        itemPuntoVenta = new JMenuItem("🛒 Terminal de Ventas");
+        itemProductos = new JMenuItem("🏷️ Maestro de Productos");
+
+        itemInventario.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        itemPuntoVenta.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        itemProductos.setFont(new Font("Segoe UI", Font.PLAIN, 13));
 
         menuModulos.add(itemInventario);
+        menuModulos.addSeparator();
         menuModulos.add(itemPuntoVenta);
+        menuModulos.addSeparator();
         menuModulos.add(itemProductos);
+        
         menuBar.add(menuModulos);
         setJMenuBar(menuBar);
     }

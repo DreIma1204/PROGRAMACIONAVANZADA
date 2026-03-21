@@ -1,0 +1,9 @@
+{
+  "id": "MA03",
+  "nombre": "Arena",
+  "precio": 145.0,
+  "stock": 8,
+  "categoria": "Mascotas",
+  "imagenRuta": "img/arena.jpg",
+  "conservacion": "Volumen / Peso"
+}

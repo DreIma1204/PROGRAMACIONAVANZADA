@@ -1,0 +1,9 @@
+{
+  "id": "CP03",
+  "nombre": "Cerdo",
+  "precio": 110.0,
+  "stock": 12,
+  "categoria": "Carnes y Pescados",
+  "imagenRuta": "img/cerdo.jpg",
+  "conservacion": "Congelados / Frescos"
+}

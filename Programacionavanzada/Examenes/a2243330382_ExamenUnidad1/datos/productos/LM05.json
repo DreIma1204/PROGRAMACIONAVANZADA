@@ -1,0 +1,9 @@
+{
+  "id": "LM05",
+  "nombre": "Escoba",
+  "precio": 65.0,
+  "stock": 10,
+  "categoria": "Limpieza del Hogar",
+  "imagenRuta": "img/escoba.jpg",
+  "conservacion": "Químicos (Aislados)"
+}

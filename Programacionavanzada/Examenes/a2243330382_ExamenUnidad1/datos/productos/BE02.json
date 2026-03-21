@@ -1,0 +1,9 @@
+{
+  "id": "BE02",
+  "nombre": "Refresco",
+  "precio": 38.0,
+  "stock": 45,
+  "categoria": "Bebidas",
+  "imagenRuta": "img/refresco.jpg",
+  "conservacion": "Líquidos / Pesado"
+}

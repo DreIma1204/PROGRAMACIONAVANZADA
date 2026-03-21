@@ -1,0 +1,9 @@
+{
+  "id": "CN01",
+  "nombre": "Shampoo",
+  "precio": 75.0,
+  "stock": 20,
+  "categoria": "Cuidado Personal",
+  "imagenRuta": "img/shamp.jpg",
+  "conservacion": "Higiene"
+}

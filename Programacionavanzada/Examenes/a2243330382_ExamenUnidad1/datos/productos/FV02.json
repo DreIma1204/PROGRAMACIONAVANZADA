@@ -1,0 +1,9 @@
+{
+  "id": "FV02",
+  "nombre": "Plátano",
+  "precio": 22.0,
+  "stock": 150,
+  "categoria": "Frutas y Verduras",
+  "imagenRuta": "img/platano.jpg",
+  "conservacion": "Perecedero (Peso variable)"
+}

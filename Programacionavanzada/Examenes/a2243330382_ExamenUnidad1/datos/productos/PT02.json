@@ -1,0 +1,9 @@
+{
+  "id": "PT02",
+  "nombre": "Concha",
+  "precio": 12.0,
+  "stock": 40,
+  "categoria": "Panadería y Tortillería",
+  "imagenRuta": "img/concha.jpg",
+  "conservacion": "Alta rotación diaria"
+}
