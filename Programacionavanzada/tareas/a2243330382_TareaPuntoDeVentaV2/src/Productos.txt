@@ -1,0 +1,6 @@
+1,COD-001,Teclado Mecánico,Motospeed CK61 RGB,Hardware,50,850.00,true
+2,COD-002,Mouse Gamer,Sensor óptico 3200 DPI,Hardware,100,450.00,true
+3,COD-003,Monitor 24",Panel IPS 144Hz,Hardware,15,3500.00,true
+4,COD-004,Licencia Office,Suscripción anual,Software,200,1200.00,true
+5,COD-005,Router Dual Band,WiFi 6 de alta velocidad,Redes,10,1800.00,false
+6,COD-006,Cable UTP Cat6,Bobina de 305 metros,Redes,5,2200.00,true
